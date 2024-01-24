@@ -3,7 +3,7 @@
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-This repository contains the steps we, team <img src="LOSRLineFollower.jpeg" width="40" title="Design" >LOS RATONES<img src="LOSRLineFollower.jpeg" width="40" title="Design" >, took in developing a fast and ergonomic Line Follower, with a simple and compact chassis, and an easy to understand code.
+This repository contains the steps we, team <img src="LineFollower-main/LOSRLineFollower.jpeg" width="40" title="Design" >LOS RATONES<img src="LineFollower-main/LOSRLineFollower.jpeg" width="40" title="Design" >, took in developing a fast and ergonomic Line Follower, with a simple and compact chassis, and an easy to understand code.
 
 ## The task?
 By using an Arduino development board, build a Line Follower capable of completing the given track in under 20 sec. The chassis needs to be built by us entirely, the code needs to be tuned to finish the track in time.
@@ -17,7 +17,7 @@ A line follower is a type of robot whose sole purpose is to follow a thin black 
 
 We wanted a chassis that could be close to the ground and wide enough so that our little line-following robot would not drift out of the track and perform well in turns. So after a short search online we stumbled upon this nice example from [iFuture](https://ifuturetech.org/product/line-follower-robot-chassis/). We made the chassis from a foamboard-like material that could be strong enough to not bend under its weight while being light for better performance.
 
-<img src="DesignLineFollower.jpg" width="450" title="Design" > <br>
+<img src="LineFollower-main/DesignLineFollower.jpg" width="450" title="Design" > <br>
 ### 2. List of components
 
 - Arduino Nano
@@ -39,13 +39,13 @@ We wanted a chassis that could be close to the ground and wide enough so that ou
 
 ### 3. Electrical diagram
 
-<img src="SchematicLineFollower.jpg" width="450" title="Electrical diagram" > <br>
+<img src="LineFollower-main/SchematicLineFollower.jpg" width="450" title="Electrical diagram" > <br>
 To be honest it is kinda hectic in there with all the wires but we didn't find the needed array of sensors in Fritzing so we used 6 independent sensors. The idea is the same.
 
 ### 4. Final Build
 
-<img src="FinalBuildLineFollower.jpeg" width="450" title="Final build" > <br> 
-<img src="FinalBuild2LineFollower.jpeg" width="450" title="Final build" > <br> 
+<img src="LineFollower-main/FinalBuildLineFollower.jpeg" width="450" title="Final build" > <br> 
+<img src="LineFollower-main/FinalBuild2LineFollower.jpeg" width="450" title="Final build" > <br> 
 
 ### 5. Code 
 
@@ -54,7 +54,7 @@ We used the Arduino IDE to program the little robot. We implemented a PID closed
 Meanwhile, PID stands for Proportional, Integrative, and Derivative, each of these functions helps the car get better on the track and react better to change. In the end, we only used P, for reducing the error signal, which is the part of the system that gives it the main drive, and D, for ensuring that when changes in error occur, the system will behave accordingly and not just go out of the track because of inertia. Easier said, the P wants the car to go as fast as it can and D slows the car down so that it remains on the track.
 
 ### 6. Showcase
-<img src="GIFLineFollower.gif" width="450" title="Final build" > <br>
+<img src="LineFollower-main/GIFLineFollower.gif" width="450" title="Final build" > <br>
 
 [__Link to the video__](https://drive.google.com/file/d/1HoKQnC8o8f6Li1FVwre6utV_q94SPJLr/view?usp=sharing)
 
@@ -66,4 +66,4 @@ After a whole day spent at University, blood, sweat, and tears, we finally had a
 
 ### 🐭[Beselinho](https://github.com/Beselinho) 🎯[GeorgePopescu318](https://github.com/GeorgePopescu318) 👺[Vapus](https://github.com/Vapuss)
 
-<img src="TeamLineFollower.jpeg" width="450" title="Electrical diagram" > <br>
+<img src="LineFollower-main/TeamLineFollower.jpeg" width="450" title="Electrical diagram" > <br>
